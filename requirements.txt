@@ -1,6 +1,7 @@
 numpy
 quickstart-vdk
 vdk-trino
+vdk-sqlite
 xmltodict
 
 # necessary for sql in jupyter

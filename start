@@ -15,4 +15,6 @@ export VDK_API_TOKEN_AUTHORIZATION_URL=https://console-stg.cloud.vmware.com/csp/
 #export VDK_TRINO_SCHEMA=default
 #export VDK_INGEST_TARGET_DEFAULT=trino://user@aa9845eb53d7c45fbaf0667e64ba5406-556859698.us-west-1.elb.amazonaws.com:1094/mysql
 
+export sqlite_file=/tmp/.vdk-sqlite.db
+
 exec "$@"

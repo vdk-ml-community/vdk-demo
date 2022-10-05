@@ -1,4 +1,4 @@
-create table if not exists {rates_agg_table} (
+create table if not exists {destination_table} (
     period_month text,
     avg_bid integer,
     min_bid integer,
